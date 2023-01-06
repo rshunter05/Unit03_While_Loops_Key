@@ -16,11 +16,15 @@ public class Lab02 {
 	public static void problem01() {
 		Scanner inKey = new Scanner(System.in);
 		
+		//get user input
 		System.out.print("Enter a positive integer: ");
 		int input = inKey.nextInt();
-		int count = input;
-		int sum = 0;
-		while (count > 0) {
+		
+		
+		int count = input;  //to count the interations
+		int sum = 0; 		//store the sum
+		
+		while (count > 0) { //count down to 0 adding each count to sum
 			count--;
 			sum += count;
 		}
@@ -32,20 +36,22 @@ public class Lab02 {
 		
 		Scanner inKey = new Scanner(System.in);
 		
+		//get 2 user inputs
 		System.out.print("Enter a positive integer: ");
 		int input1 = inKey.nextInt();
 		System.out.print("Enter another positive integer: ");
 		int input2 = inKey.nextInt();
 		
+		//determine which one is bigger
 		int max = Math.max(input1, input2) - 1;
 		int min = Math.min(input1, input2);
-		int sum = 0;
+		int sum = 0;  //to store the sum
 		
-		while (max > min) {
-			if (max % 2 == 0) {
-				sum += max;
+		while (max > min) {  //loop from max to min (exclusive)
+			if (max % 2 == 0) {  
+				sum += max;  //add only even values of max to the sum
 			}
-			max--;
+			max--;  //de-increment sum
 		}
 		System.out.println("The sum of all even integers between " + 
 					input1 + " and " + input2 + " is " + sum + ".");
@@ -57,15 +63,17 @@ public class Lab02 {
 
 		Scanner inKey = new Scanner(System.in);
 		
+		//get user input
 		System.out.print("Enter a positive integer: ");
 		int input1 = inKey.nextInt();
-		int count = input1;
-		int sum = 0;
 		
-		while (count > 0) {
+		int count = input1;  //track iterations
+		int sum = 0;		//to sum up all inputs
+		
+		while (count > 0) { //loop according to input1
 			
 			System.out.print("Enter any integer: ");
-			sum += inKey.nextInt();
+			sum += inKey.nextInt();  //add each input to sum
 			count--;
 		}
 		System.out.println("The sum of those " + input1 + 
