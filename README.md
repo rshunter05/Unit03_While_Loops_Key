@@ -3,7 +3,7 @@
 This is a completed version of introductory while loops unit for my Computer Science 1 class.  It's comprised of 3 labs that must be completed verbatum and a performance task.  Students fork and submbit the student version throguh GitHub Classroom.  It includes an autograder function.
 - [Labs Section](https://github.com/rshunter05/Unit03_While_Loops_Key/tree/master/src/labs)
 - [Performance Task Section](https://github.com/rshunter05/Unit03_While_Loops_Key/tree/master/src/performance_task)
-- [Test Section](https://github.com/rshunter05/Unit03_While_Loops_Key/tree/master/src/tests_DO_NOT_EDIT)
+- [JUnit Test Section](https://github.com/rshunter05/Unit03_While_Loops_Key/tree/master/src/tests_DO_NOT_EDIT)
 
 
 ## Autograder
