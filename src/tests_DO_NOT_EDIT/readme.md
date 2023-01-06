@@ -9,11 +9,21 @@ If a test case is not passed, the following will be sent to the console:
 - The expected output
 - The students output
 
-Example:
-![]()
+Example:   
+```
+Error Problem #2:    
+    Failed test 1 of 4  
+    Input tested: 4  
+    12   
+    Expected output: The sum of all even integers between 4 and 12 is 24.   
+    Your output:    
+    Enter a positive integer: Enter another positive integer: The sum of all even integers between 4 and 12 is 36.
+```
 
-Othewise they recieve this:
-![](https://github.com/rshunter05/Unit03_While_Loops_Key/blob/master/Screen%20Shot%202023-01-06%20at%209.54.35%20AM.png)
+Othewise they recieve this:   
+```
+Test Problem #2: Passed all 4 tests
+```
 
 
 # InOutMimic.java
