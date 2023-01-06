@@ -1,6 +1,6 @@
 # Test Cases
 
-This is a breakdown of how I used JUnit 5 to set up the test system.  The idea is for each problem to be tested with a veriety of possible inputs including special cases that would cause Exceptions if not properly handle.
+This is a breakdown of how I used JUnit 5 to set up the test system.  The idea is for each problem to be tested with a veriety of possible inputs including special cases that would cause Exceptions if not properly handled.
 
 If a test case is not passed, the following will be sent to the console:
 - The problem number
