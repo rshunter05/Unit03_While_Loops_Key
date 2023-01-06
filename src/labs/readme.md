@@ -1,6 +1,6 @@
 # Labs
 
-There are 3 labs in this secion covering some basic intoductory loop concepts.  There is a pdf of instructions for each lab.  There is a method already created for each problem.  Students are to use those methods.
+There are 3 labs in this secion covering some basic intoductory loop concepts.  There is a pdf of instructions for each lab.  There is a method already created for each problem.  Students are to use those methods.  Obviously the student verson has blank methods.
 
 Topics Covered:
 - Basic iteration and integer manipulation
