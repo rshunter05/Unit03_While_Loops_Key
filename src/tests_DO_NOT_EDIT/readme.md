@@ -29,3 +29,4 @@ Test Problem #2: Passed all 4 tests
 # InOutMimic.java
 
 This class overrides the PrintStream and InputStream so I can provide a veriety of mock user inputs and check their print statemtnes for accuracy.
+It's a separate class so it can be easily copied to other projects.
