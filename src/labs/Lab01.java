@@ -15,15 +15,27 @@ public class Lab01 {
 	
 	public static void problem1() {
 	
-		System.out.println("1 2 3 4 5 6 7 8 9 10 ");
 		
+		int i = 1;  //starting value
+		
+		while (i < 11) { //stop before 11
+			System.out.print(i + " ");  //print i and a space
+			i++;
+		}
+		System.out.println();  //final return
 	}
 	
 	
 	
 	public static void problem2() {
 		
-		System.out.println("-5 0 5 10 15 20 25 30 ");
+		int i = -5;  //starting value
+		
+		while (i < 31) { //stop before 31
+			System.out.print(i + " ");  //print i and a space
+			i += 5;
+		}
+		System.out.println();  //final return
 			
 	}
 	
@@ -31,7 +43,13 @@ public class Lab01 {
 	
 	public static void problem3() {
 		
-		System.out.println("1000, 500, 250, 125, 62, 31, 15, 7, 3, 1, 0 ");
+		int i = 1000;  //starting value
+		
+		while (i > 0) { //stop at 0
+			System.out.print(i + ", ");  //print i, and a space
+			i /= 2;
+		}
+		System.out.println("0");  //final print without comma
 		
 	}
 	
@@ -39,7 +57,13 @@ public class Lab01 {
 	
 	public static void problem4() {
 		
-		System.out.println("2 -4 8 -16 32 -64 ");
+		int i = 2;  //starting value
+		
+		while (i < 64) { //stop at -64
+			System.out.print(i + " ");  //print i, and a space
+			i *= -2;
+		}
+		System.out.println("");  //final print 
 		
 	}
 	
@@ -47,7 +71,17 @@ public class Lab01 {
 	
 	public static void problem5() {
 		
-		System.out.println("2 4 8 10 14 16 20 22 26 28 32 34 ");
+		int i = 2;  //starting value
+		
+		while (i < 35) { //stop at 34
+			
+			//Don't print multiples of 6
+			if (i % 6 != 0) {
+				System.out.print(i + " ");  //print i, and a space
+			}
+			i += 2;
+		}
+		System.out.println("");  //final print 
 		
 	}
 	
